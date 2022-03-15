@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+}
+#header .header__menu {
+  display: flex;
+}
+#header .header__menu__item {
+  margin: 0 20px;
+}
+#header .header__menu__item .link {
+  font-family: DINPro, sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #263640;
+}
+#header .header__btn {
+  width: 146px;
+  height: 40px;
+  background: #FF9900;
+  font-family: DINPro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#dieter .dieter {
+  display: flex;
+  justify-content: space-between;
+}
+#dieter .dieter__biter {
+  margin: 100px;
+}
+#dieter .dieter__biter .dieter__top {
+  margin: 30px;
+}
+#dieter .dieter__top {
+  font-family: DINPro, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #929A9F;
+}
+#dieter .dieter__top .dieter__pot {
+  font-family: DINPro, sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  color: #263640;
+  height: 300px;
+}
+#dieter .dieter__btn__2 {
+  padding: 3% 5%;
+  border-radius: 2px;
+  background: #FF9900;
+  font-family: DINPro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#unsere .unsere__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#diplom .diplom__img__2 {
+  position: relative;
+  width: 1009px;
+  height: 584px;
+  background: #263640;
+  box-shadow: 0px 10px 50px;
+}
+#diplom .img {
+  margin-left: 690px;
+}
+
+/*# sourceMappingURL=style.css.map */
